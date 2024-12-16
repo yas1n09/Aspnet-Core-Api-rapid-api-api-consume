@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccessLayer.Abstract
 {
-    public interface IGenericDal<in T> where T : class
+    public interface IGenericDal<T> where T : class
     {
         void Insert(T t);
         void Delete(T t);
