@@ -35,12 +35,12 @@ namespace HotelProject.BusinessLayer.Concrete
 
         public void TInsert(Staff t)
         {
-            throw new NotImplementedException();
+            _staffDal.Insert(t);
         }
 
         public void TUpdate(Staff t)
         {
-            throw new NotImplementedException();
+            _staffDal.Update(t);
         }
     }
 }
